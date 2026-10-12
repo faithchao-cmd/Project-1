@@ -1,0 +1,21 @@
+# Rebuildable database (run python Notes/build_db.py to recreate)
+netflix.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Excel temp files
+~$*.xlsx
+
+# Raw dataset (uncomment if you prefer to link to Kaggle instead of committing the CSV)
+# dataset/netflix_titles.csv
